@@ -1,0 +1,86 @@
+# Project Instructions
+
+This project includes a Python server and client application. The server provides a weather API integration with encryption capabilities, while the client interacts with the server using a graphical interface.
+
+## Prerequisites
+
+1. Python 3.12 installed on your system.
+2. An IDE like PyCharm (recommended) or any other Python-compatible IDE.
+3. Internet access to fetch weather data.
+
+## Setup Instructions
+
+### Step 1: Install Python
+
+1. Visit the official Python website: https://www.python.org/.
+2. Download Python 3.12 for your operating system.
+3. Follow the installation instructions for your platform.
+   - Ensure that you check the option to **Add Python to PATH** during installation.
+
+### Step 2: Install an IDE
+
+1. Download and install PyCharm (recommended) from https://www.jetbrains.com/pycharm/.
+2. Alternatively, use another Python-compatible IDE like VS Code.
+
+
+
+### Step 3: Install Dependencies
+
+1. Open your IDE and load the project directory.
+2. Open the terminal in the IDE and run the following commands to install the required libraries:
+   
+   pip install socket
+   pip install threading
+   pip install sqlite3
+   pip install hashlib
+   pip install requests
+   pip install tkinter
+   pip install logging
+   
+
+## Running the Project
+
+### Step 1: Start the Server
+
+1. In your IDE, open the `server.py` file.
+2. Run the script using the IDE's run button or functionality.
+   - In PyCharm, click the green play button at the top-right corner.
+3. The server will start on `127.0.0.1:65432`.
+
+### Step 2: Run the Client
+
+1. In your IDE, open the `client.py` file.
+2. Run the script using the IDE's run button or functionality.
+   - In PyCharm, click the green play button at the top-right corner.
+3. Follow the graphical interface to:
+   - Login using predefined credentials (`user1`/`password1` or `user2`/`password2`).
+   - Select an encryption method (Caesar or Vigenère).
+   - Search for weather data of any city.
+
+## Notes
+
+1. The server initializes a SQLite database (`users.db`) to store user credentials. Default credentials are:
+   - `Username: user1, Password: password1`
+   - `Username: user2, Password: password2`
+2. Logs are saved in `server.log` for debugging and monitoring purposes.
+3. If you want to add more users, modify the `init_database` function in `server.py`.
+
+## Troubleshooting
+
+1. **Cannot connect to the server:**
+   - Ensure the server is running on `127.0.0.1` and port `65432`.
+   - Check firewall settings.
+
+2. **Error fetching weather data:**
+   - Verify the API key and internet connection.
+   - Update the `API_KEY` variable in `server.py` if needed.
+
+3. **Database errors:**
+   - Delete `users.db` and restart the server to reinitialize the database.
+
+4. **GUI issues:**
+   - Ensure `tkinter` is installed and supported by your Python installation.
+
+## License
+This project is free to use and modify for educational purposes.
+

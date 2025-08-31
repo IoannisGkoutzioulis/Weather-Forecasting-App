@@ -1,0 +1,87 @@
+2025-01-07 06:25:21,801 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 06:25:40,449 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 06:25:53,651 - INFO - Connection established with ('127.0.0.1', 62279)
+2025-01-07 06:25:53,651 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 06:25:53,653 - INFO - State transition: AUTHENTICATING -> AUTHENTICATED
+2025-01-07 06:25:53,653 - INFO - User 'user1' authenticated successfully.
+2025-01-07 06:26:00,808 - ERROR - Error handling client ('127.0.0.1', 62279): [WinError 10053] Μια σύνδεση που είχε δημιουργηθεί ματαιώθηκε από το λογισμικό του κεντρικού σας υπολογιστή
+2025-01-07 06:26:00,809 - INFO - State transition: AUTHENTICATED -> DISCONNECTED
+2025-01-07 06:26:00,809 - INFO - Client ('127.0.0.1', 62279) disconnected.
+2025-01-07 06:26:08,417 - INFO - Connection established with ('127.0.0.1', 62288)
+2025-01-07 06:26:08,417 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 06:26:08,418 - INFO - State transition: AUTHENTICATING -> AUTHENTICATED
+2025-01-07 06:26:08,419 - INFO - User 'user1' authenticated successfully.
+2025-01-07 06:26:10,750 - ERROR - Error handling client ('127.0.0.1', 62288): [WinError 10053] Μια σύνδεση που είχε δημιουργηθεί ματαιώθηκε από το λογισμικό του κεντρικού σας υπολογιστή
+2025-01-07 06:26:10,750 - INFO - State transition: AUTHENTICATED -> DISCONNECTED
+2025-01-07 06:26:10,750 - INFO - Client ('127.0.0.1', 62288) disconnected.
+2025-01-07 06:32:02,780 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 06:32:22,022 - INFO - Connection established with ('127.0.0.1', 62498)
+2025-01-07 06:32:22,022 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 06:32:22,023 - INFO - State transition: AUTHENTICATING -> AUTHENTICATED
+2025-01-07 06:32:22,023 - INFO - User 'user1' authenticated successfully.
+2025-01-07 06:32:44,178 - INFO - State transition: AUTHENTICATED -> DISCONNECTED
+2025-01-07 06:32:44,179 - INFO - State transition: DISCONNECTED -> DISCONNECTED
+2025-01-07 06:32:44,179 - INFO - Client ('127.0.0.1', 62498) disconnected.
+2025-01-07 06:42:19,610 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 06:42:34,107 - INFO - Connection established with ('127.0.0.1', 62967)
+2025-01-07 06:42:34,107 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 06:42:34,110 - INFO - State transition: AUTHENTICATING -> SELECT_CIPHER
+2025-01-07 06:42:34,110 - INFO - User 'user1' authenticated successfully.
+2025-01-07 06:43:01,509 - INFO - Cipher selected: Thessaloniki
+2025-01-07 06:43:01,509 - INFO - State transition: SELECT_CIPHER -> WEATHER_SEARCH
+2025-01-07 06:43:20,576 - ERROR - Error handling client ('127.0.0.1', 62967): [WinError 10054] Μια υπάρχουσα σύνδεση διακόπηκε υποχρεωτικά από τον απομακρυσμένο υπολογιστή
+2025-01-07 06:43:20,576 - INFO - State transition: WEATHER_SEARCH -> DISCONNECTED
+2025-01-07 06:43:20,576 - INFO - Client ('127.0.0.1', 62967) disconnected.
+2025-01-07 06:45:52,712 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 07:37:55,442 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 07:38:03,123 - INFO - Connection established with ('127.0.0.1', 49645)
+2025-01-07 07:38:03,123 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 07:38:03,124 - INFO - State transition: AUTHENTICATING -> DISCONNECTED
+2025-01-07 07:38:03,124 - WARNING - Authentication failed for user 'gergre'.
+2025-01-07 07:38:03,124 - INFO - State transition: DISCONNECTED -> DISCONNECTED
+2025-01-07 07:38:03,124 - INFO - Client ('127.0.0.1', 49645) disconnected.
+2025-01-07 07:38:09,146 - INFO - Connection established with ('127.0.0.1', 49650)
+2025-01-07 07:38:09,146 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 07:38:09,147 - INFO - State transition: AUTHENTICATING -> SELECT_CIPHER
+2025-01-07 07:38:09,147 - INFO - User 'user1' authenticated successfully.
+2025-01-07 07:38:23,696 - INFO - Cipher selected: thessaloniki
+2025-01-07 07:38:23,697 - INFO - State transition: SELECT_CIPHER -> WEATHER_SEARCH
+2025-01-07 07:38:35,916 - ERROR - Error handling client ('127.0.0.1', 49650): [WinError 10054] Μια υπάρχουσα σύνδεση διακόπηκε υποχρεωτικά από τον απομακρυσμένο υπολογιστή
+2025-01-07 07:38:35,916 - INFO - State transition: WEATHER_SEARCH -> DISCONNECTED
+2025-01-07 07:38:35,916 - INFO - Client ('127.0.0.1', 49650) disconnected.
+2025-01-07 07:45:14,801 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 07:45:27,613 - INFO - Connection established with ('127.0.0.1', 49969)
+2025-01-07 07:45:27,613 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 07:45:27,616 - INFO - State transition: AUTHENTICATING -> SELECT_CIPHER
+2025-01-07 07:45:27,616 - INFO - User 'user1' authenticated successfully.
+2025-01-07 07:45:30,770 - INFO - Cipher selected: Caesar
+2025-01-07 07:45:30,770 - INFO - State transition: SELECT_CIPHER -> WEATHER_SEARCH
+2025-01-07 07:46:16,176 - INFO - State transition: WEATHER_SEARCH -> DISCONNECTED
+2025-01-07 07:46:16,176 - INFO - State transition: DISCONNECTED -> DISCONNECTED
+2025-01-07 07:46:16,176 - INFO - Client ('127.0.0.1', 49969) disconnected.
+2025-01-07 08:00:30,482 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 08:00:43,548 - INFO - Connection established with ('127.0.0.1', 50495)
+2025-01-07 08:00:43,548 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 08:00:43,551 - INFO - State transition: AUTHENTICATING -> SELECT_CIPHER
+2025-01-07 08:00:43,552 - INFO - User 'user1' authenticated successfully.
+2025-01-07 08:00:47,327 - INFO - Cipher selected: Caesar
+2025-01-07 08:00:47,328 - INFO - State transition: SELECT_CIPHER -> WEATHER_SEARCH
+2025-01-07 08:01:59,661 - ERROR - Error handling client ('127.0.0.1', 50495): [WinError 10053] Μια σύνδεση που είχε δημιουργηθεί ματαιώθηκε από το λογισμικό του κεντρικού σας υπολογιστή
+2025-01-07 08:01:59,662 - INFO - State transition: WEATHER_SEARCH -> DISCONNECTED
+2025-01-07 08:01:59,662 - INFO - Client ('127.0.0.1', 50495) disconnected.
+2025-01-07 11:10:12,156 - INFO - Server started on 127.0.0.1:65432
+2025-01-07 11:11:08,392 - INFO - Connection established with ('127.0.0.1', 57060)
+2025-01-07 11:11:08,392 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 11:11:08,395 - INFO - State transition: AUTHENTICATING -> DISCONNECTED
+2025-01-07 11:11:08,396 - WARNING - Authentication failed for user 'iujijsfad'.
+2025-01-07 11:11:08,396 - INFO - State transition: DISCONNECTED -> DISCONNECTED
+2025-01-07 11:11:08,396 - INFO - Client ('127.0.0.1', 57060) disconnected.
+2025-01-07 11:11:19,151 - INFO - Connection established with ('127.0.0.1', 57066)
+2025-01-07 11:11:19,152 - INFO - State transition: INITIAL -> AUTHENTICATING
+2025-01-07 11:11:19,153 - INFO - State transition: AUTHENTICATING -> SELECT_CIPHER
+2025-01-07 11:11:19,153 - INFO - User 'user1' authenticated successfully.
+2025-01-07 11:11:54,690 - INFO - Cipher selected: Caesar
+2025-01-07 11:11:54,690 - INFO - State transition: SELECT_CIPHER -> WEATHER_SEARCH
+2025-01-07 11:13:00,255 - ERROR - Error handling client ('127.0.0.1', 57066): [WinError 10053] Μια σύνδεση που είχε δημιουργηθεί ματαιώθηκε από το λογισμικό του κεντρικού σας υπολογιστή
+2025-01-07 11:13:00,255 - INFO - State transition: WEATHER_SEARCH -> DISCONNECTED
+2025-01-07 11:13:00,255 - INFO - Client ('127.0.0.1', 57066) disconnected.
